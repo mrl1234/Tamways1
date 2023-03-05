@@ -54,6 +54,8 @@ class Selected2 : AppCompatActivity(), UsersAdapter.ClickListener {
         userList.add(UserModel("NB Gate"))
         userList.add(UserModel("NB Finance"))
         userList.add(UserModel("NB Registrar"))
+        userList.add(UserModel("NB OGLH"))
+        userList.add(UserModel("NB Bio Chemistry Laboratory"))
         userList.add(UserModel("NB 1st Floor (Room 101 - 103)"))
         userList.add(UserModel("NB 2nd Floor (Room 201 - 207)"))
         userList.add(UserModel("NB 3rd Floor (Room 301 - 309)"))
@@ -81,6 +83,20 @@ class Selected2 : AppCompatActivity(), UsersAdapter.ClickListener {
         when(userModel.username){
             "ABB Canteen"->
                 startActivity(Intent(this@Selected2, Selected2to2::class.java))
+            "NB 1st Floor (Room 101 - 103)"->
+                startActivity(Intent(this@Selected2, Selected2to1a::class.java))
+            "NB 2nd Floor (Room 201 - 207)"->
+                startActivity(Intent(this@Selected2, Selected2to2a::class.java))
+            "NB 3rd Floor (Room 301 - 309)"->
+                startActivity(Intent(this@Selected2, Selected2to3a::class.java))
+            "NB 4th Floor (Room 401 - 409)"->
+                startActivity(Intent(this@Selected2, Selected2to4a::class.java))
+            "NB 5th Floor (Room 501 - 509)"->
+                startActivity(Intent(this@Selected2, Selected2to5a::class.java))
+            "NB 6th Floor (Room 601 - 610)"->
+                startActivity(Intent(this@Selected2, Selected2to6a::class.java))
+            "NB 7th Floor (Room 701 - 709)"->
+                startActivity(Intent(this@Selected2, Selected2to7a::class.java))
             "ABB 1st Floor"->
                 startActivity(Intent(this@Selected2, Selected2to1::class.java))
             "ABB 2nd Floor (Room 201 - 208)"->
@@ -91,6 +107,8 @@ class Selected2 : AppCompatActivity(), UsersAdapter.ClickListener {
                 startActivity(Intent(this@Selected2, Selected2tob4a::class.java))
             "ABB 5th Floor (Room 501 - 507)"->
                 startActivity(Intent(this@Selected2, Selected2tob5a::class.java))
+            "ABB 6th Floor (Room 601 - 607)"->
+                startActivity(Intent(this@Selected2, Selected2tob6a::class.java))
             else -> {
                 Toast.makeText(this,"Wala pa", Toast.LENGTH_LONG).show()
             }

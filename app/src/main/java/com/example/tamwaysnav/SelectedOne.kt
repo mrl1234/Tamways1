@@ -1,6 +1,5 @@
 package com.example.tamwaysnav
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -13,7 +12,6 @@ import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.tamwaysnav.R.id.recyclerView
 
 
 class SelectedOne : AppCompatActivity(), UsersAdapter.ClickListener {
@@ -52,20 +50,22 @@ class SelectedOne : AppCompatActivity(), UsersAdapter.ClickListener {
         userList.add(UserModel("NB Canteen"))
         userList.add(UserModel("ABB Canteen"))
         userList.add(UserModel("PAV"))
-        userList.add(UserModel("NB 1st Floor"))
-        userList.add(UserModel("NB 2nd Floor"))
-        userList.add(UserModel("NB 3rd Floor"))
-        userList.add(UserModel("NB 4th Floor"))
-        userList.add(UserModel("NB 5th Floor"))
-        userList.add(UserModel("NB 6th Floor"))
-        userList.add(UserModel("NB 7th Floor"))
+        userList.add(UserModel("NB Finance"))
+        userList.add(UserModel("NB Registrar"))
+        userList.add(UserModel("NB 1st Floor (Room 101 - 103)"))
+        userList.add(UserModel("NB 2nd Floor (Room 201 - 207)"))
+        userList.add(UserModel("NB 3rd Floor (Room 301 - 309)"))
+        userList.add(UserModel("NB 4th Floor (Room 401 - 409)"))
+        userList.add(UserModel("NB 5th Floor (Room 501 - 509)"))
+        userList.add(UserModel("NB 6th Floor (Room 601 - 610)"))
+        userList.add(UserModel("NB 7th Floor (Room 701 - 709)"))
         userList.add(UserModel("ABB 1st Floor"))
-        userList.add(UserModel("ABB 2nd Floor"))
-        userList.add(UserModel("ABB 3rd Floor"))
-        userList.add(UserModel("ABB 4th Floor"))
-        userList.add(UserModel("ABB 5th Floor"))
-        userList.add(UserModel("ABB 6th Floor"))
-        userList.add(UserModel("ABB 7th Floor"))
+        userList.add(UserModel("ABB 2nd Floor (Room 201 - 208)"))
+        userList.add(UserModel("ABB 3rd Floor (Room 301 - 307)"))
+        userList.add(UserModel("ABB 4th Floor (Room 401 - 407)"))
+        userList.add(UserModel("ABB 5th Floor (Room 501 - 507)"))
+        userList.add(UserModel("ABB 6th Floor (Room 601 - 607)"))
+
 
         return userList;
     }
@@ -80,12 +80,42 @@ class SelectedOne : AppCompatActivity(), UsersAdapter.ClickListener {
         when(userModel.username){
             "PAV"->
                 startActivity(Intent(this@SelectedOne, SelectedOneTo1::class.java))
+            "NB Finance"->
+                startActivity(Intent(this@SelectedOne, SelectedOneto2c::class.java))
+            "NB Registrar"->
+                startActivity(Intent(this@SelectedOne, SelectedOneto2d::class.java))
+            "ABB Canteen"->
+                startActivity(Intent(this@SelectedOne, SelectedOnetoct1::class.java))
             "NB Canteen"->
                 startActivity(Intent(this@SelectedOne, SelectedOneto2::class.java))
-            "NB 1st Floor"->
-                startActivity(Intent(this@SelectedOne, SelectedOneto3::class.java))
-            "NB 2nd Floor"->
+            "NB 1st Floor (Room 101 - 103)"->
+                startActivity(Intent(this@SelectedOne, SelectedOneto1a::class.java))
+            "NB 2nd Floor (Room 201 - 207)"->
                 startActivity(Intent(this@SelectedOne, SelectedOneto2a::class.java))
+            "NB 3rd Floor (Room 301 - 309)"->
+                startActivity(Intent(this@SelectedOne, SelectedOneto3a::class.java))
+            "NB 4th Floor (Room 401 - 409)"->
+                startActivity(Intent(this@SelectedOne, SelectedOneto4::class.java))
+            "NB 5th Floor (Room 501 - 509)"->
+                startActivity(Intent(this@SelectedOne, SelectedOneto5a::class.java))
+            "NB 6th Floor (Room 601 - 610)"->
+                startActivity(Intent(this@SelectedOne, SelectedOneto6a::class.java))
+            "NB 7th Floor (Room 701 - 709)"->
+                startActivity(Intent(this@SelectedOne, SelectedOneto7a::class.java))
+            "ABB 1st Floor"->
+                startActivity(Intent(this@SelectedOne, SelectedOnetob1a::class.java))
+            "ABB 2nd Floor (Room 201 - 208)"->
+                startActivity(Intent(this@SelectedOne, SelectedOnetob2a::class.java))
+            "ABB 3rd Floor (Room 301 - 307)"->
+                startActivity(Intent(this@SelectedOne, SelectedOnetob3a::class.java))
+            "ABB 4th Floor (Room 401 - 407)"->
+                startActivity(Intent(this@SelectedOne, SelectedOnetob4a::class.java))
+            "ABB 5th Floor (Room 501 - 507)"->
+                startActivity(Intent(this@SelectedOne, SelectedOnetob5a::class.java))
+            "ABB 6th Floor (Room 601 - 607)"->
+                startActivity(Intent(this@SelectedOne, SelectedOnetob6a::class.java))
+
+
 
             else -> {
                 Toast.makeText(this,"Wala pa", Toast.LENGTH_LONG).show()

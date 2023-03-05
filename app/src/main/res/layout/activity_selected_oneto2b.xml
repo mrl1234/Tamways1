@@ -5,11 +5,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".SelectedOneto2b">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="   NB Gate to NB 2nd Floor"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textColorHighlight="#E91E63"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <com.jsibbold.zoomage.ZoomageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/nbgateto22"/>
+        android:layout_height="379dp"
+        android:src="@drawable/nbgateto2b" />
 
 </LinearLayout>

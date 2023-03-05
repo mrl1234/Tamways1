@@ -10,6 +10,6 @@
     <com.jsibbold.zoomage.ZoomageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/image2"/>
+        android:src="@drawable/panorama"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

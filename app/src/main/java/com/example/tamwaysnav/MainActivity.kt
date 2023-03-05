@@ -48,8 +48,7 @@ class MainActivity : AppCompatActivity(), UsersAdapter.ClickListener {
 
         var userList = ArrayList<UserModel>()
         userList.add(UserModel("NB Gate"))
-        userList.add(UserModel("NB Canteen"))
-        userList.add(UserModel("ABB Canteen"))
+        userList.add(UserModel("ABB Gate"))
         userList.add(UserModel("PAV"))
         userList.add(UserModel("NB 1st Floor"))
         userList.add(UserModel("NB 2nd Floor"))
@@ -64,7 +63,6 @@ class MainActivity : AppCompatActivity(), UsersAdapter.ClickListener {
         userList.add(UserModel("ABB 4th Floor"))
         userList.add(UserModel("ABB 5th Floor"))
         userList.add(UserModel("ABB 6th Floor"))
-        userList.add(UserModel("ABB 7th Floor"))
 
         return userList;
     }

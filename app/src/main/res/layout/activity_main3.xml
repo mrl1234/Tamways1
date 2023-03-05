@@ -41,13 +41,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Start"
             android:background="@drawable/button"
-            android:textSize="20sp"
-            android:onClick="activity2_main"/>
+            android:onClick="activity2_main"
+            android:text="Start"
+            android:textSize="20sp" />
     </LinearLayout>
 </LinearLayout>

@@ -36,7 +36,8 @@
             android:layout_height="wrap_content"
             android:background="@drawable/button"
             android:text="Next"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:visibility="visible" />
 
 
     </LinearLayout>

@@ -51,21 +51,22 @@ class Selected2 : AppCompatActivity(), UsersAdapter.ClickListener {
         var userList = ArrayList<UserModel>()
         userList.add(UserModel("NB Canteen"))
         userList.add(UserModel("ABB Canteen"))
-        userList.add(UserModel("PAV"))
-        userList.add(UserModel("NB 1st Floor"))
-        userList.add(UserModel("NB 2nd Floor"))
-        userList.add(UserModel("NB 3rd Floor"))
-        userList.add(UserModel("NB 4th Floor"))
-        userList.add(UserModel("NB 5th Floor"))
-        userList.add(UserModel("NB 6th Floor"))
-        userList.add(UserModel("NB 7th Floor"))
+        userList.add(UserModel("NB Gate"))
+        userList.add(UserModel("NB Finance"))
+        userList.add(UserModel("NB Registrar"))
+        userList.add(UserModel("NB 1st Floor (Room 101 - 103)"))
+        userList.add(UserModel("NB 2nd Floor (Room 201 - 207)"))
+        userList.add(UserModel("NB 3rd Floor (Room 301 - 309)"))
+        userList.add(UserModel("NB 4th Floor (Room 401 - 409)"))
+        userList.add(UserModel("NB 5th Floor (Room 501 - 509)"))
+        userList.add(UserModel("NB 6th Floor (Room 601 - 610)"))
+        userList.add(UserModel("NB 7th Floor (Room 701 - 709)"))
         userList.add(UserModel("ABB 1st Floor"))
-        userList.add(UserModel("ABB 2nd Floor"))
-        userList.add(UserModel("ABB 3rd Floor"))
-        userList.add(UserModel("ABB 4th Floor"))
-        userList.add(UserModel("ABB 5th Floor"))
-        userList.add(UserModel("ABB 6th Floor"))
-        userList.add(UserModel("ABB 7th Floor"))
+        userList.add(UserModel("ABB 2nd Floor (Room 201 - 208)"))
+        userList.add(UserModel("ABB 3rd Floor (Room 301 - 307)"))
+        userList.add(UserModel("ABB 4th Floor (Room 401 - 407)"))
+        userList.add(UserModel("ABB 5th Floor (Room 501 - 507)"))
+        userList.add(UserModel("ABB 6th Floor (Room 601 - 607)"))
 
         return userList;
     }
@@ -78,9 +79,18 @@ class Selected2 : AppCompatActivity(), UsersAdapter.ClickListener {
         Log.e("TAG", userModel.username);
 
         when(userModel.username){
-            "PAV"->
+            "ABB Canteen"->
                 startActivity(Intent(this@Selected2, Selected2to2::class.java))
-
+            "ABB 1st Floor"->
+                startActivity(Intent(this@Selected2, Selected2to1::class.java))
+            "ABB 2nd Floor (Room 201 - 208)"->
+                startActivity(Intent(this@Selected2, Selected2tob2a::class.java))
+            "ABB 3rd Floor (Room 301 - 307)"->
+                startActivity(Intent(this@Selected2, Selected2tob3a::class.java))
+            "ABB 4th Floor (Room 401 - 407)"->
+                startActivity(Intent(this@Selected2, Selected2tob4a::class.java))
+            "ABB 5th Floor (Room 501 - 507)"->
+                startActivity(Intent(this@Selected2, Selected2tob5a::class.java))
             else -> {
                 Toast.makeText(this,"Wala pa", Toast.LENGTH_LONG).show()
             }

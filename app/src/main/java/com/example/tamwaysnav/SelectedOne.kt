@@ -53,6 +53,7 @@ class SelectedOne : AppCompatActivity(), UsersAdapter.ClickListener {
         userList.add(UserModel("NB Finance"))
         userList.add(UserModel("NB Registrar"))
         userList.add(UserModel("NB OGLH"))
+        userList.add(UserModel("NB SHS Faculty Room"))
         userList.add(UserModel("NB Bio Chemistry Laboratory"))
         userList.add(UserModel("NB 1st Floor (Room 101 - 103)"))
         userList.add(UserModel("NB 2nd Floor (Room 201 - 207)"))
@@ -80,14 +81,14 @@ class SelectedOne : AppCompatActivity(), UsersAdapter.ClickListener {
         Log.e("TAG", userModel.username);
 
         when(userModel.username){
-            "PAV"->
-                startActivity(Intent(this@SelectedOne, SelectedOneTo1::class.java))
             "NB Finance"->
                 startActivity(Intent(this@SelectedOne, SelectedOneto2c::class.java))
             "NB Registrar"->
                 startActivity(Intent(this@SelectedOne, SelectedOneto2d::class.java))
             "NB OGLH"->
                 startActivity(Intent(this@SelectedOne, SelectedOneto4d::class.java))
+            "NB SHS Faculty Room"->
+                startActivity(Intent(this@SelectedOne, SelectedOneto2f::class.java))
             "NB Bio Chemistry Laboratory"->
                 startActivity(Intent(this@SelectedOne, SelectedOneto4h::class.java))
             "ABB Canteen"->

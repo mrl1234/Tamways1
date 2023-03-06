@@ -55,6 +55,7 @@ class Selected2 : AppCompatActivity(), UsersAdapter.ClickListener {
         userList.add(UserModel("NB Finance"))
         userList.add(UserModel("NB Registrar"))
         userList.add(UserModel("NB OGLH"))
+        userList.add(UserModel("NB SHS Faculty Room"))
         userList.add(UserModel("NB Bio Chemistry Laboratory"))
         userList.add(UserModel("NB 1st Floor (Room 101 - 103)"))
         userList.add(UserModel("NB 2nd Floor (Room 201 - 207)"))
@@ -83,6 +84,12 @@ class Selected2 : AppCompatActivity(), UsersAdapter.ClickListener {
         when(userModel.username){
             "ABB Canteen"->
                 startActivity(Intent(this@Selected2, Selected2to2::class.java))
+            "NB Finance"->
+                startActivity(Intent(this@Selected2, Selected2to2d::class.java))
+            "NB Registrar"->
+                startActivity(Intent(this@Selected2, Selected2to2g::class.java))
+            "NB SHS Faculty Room"->
+                startActivity(Intent(this@Selected2, Selected2to2j::class.java))
             "NB 1st Floor (Room 101 - 103)"->
                 startActivity(Intent(this@Selected2, Selected2to1a::class.java))
             "NB 2nd Floor (Room 201 - 207)"->

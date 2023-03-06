@@ -47,6 +47,7 @@ class Selected4 : AppCompatActivity(), UsersAdapter.ClickListener {
     private fun populateUsers():List<UserModel>{
 
         var userList = ArrayList<UserModel>()
+        userList.add(UserModel("NB Gate"))
         userList.add(UserModel("NB Canteen"))
         userList.add(UserModel("ABB Canteen"))
         userList.add(UserModel("NB Finance"))
@@ -79,6 +80,12 @@ class Selected4 : AppCompatActivity(), UsersAdapter.ClickListener {
         Log.e("TAG", userModel.username);
 
         when(userModel.username){
+            "NB Gate"->
+                startActivity(Intent(this@Selected4, Selected4to1c::class.java))
+            "NB Canteen"->
+                startActivity(Intent(this@Selected4, Selected4to1a::class.java))
+            "ABB Canteen"->
+                startActivity(Intent(this@Selected4, Selected4tob1d::class.java))
             "NB Finance"->
                 startActivity(Intent(this@Selected4, Selected4to2a::class.java))
             "NB Registrar"->
@@ -91,6 +98,22 @@ class Selected4 : AppCompatActivity(), UsersAdapter.ClickListener {
                 startActivity(Intent(this@Selected4, Selected4to4a::class.java))
             "NB 5th Floor (Room 501 - 509)"->
                 startActivity(Intent(this@Selected4, Selected4to5a::class.java))
+            "NB 6th Floor (Room 601 - 610)"->
+                startActivity(Intent(this@Selected4, Selected4to6a::class.java))
+            "NB 7th Floor (Room 701 - 709)"->
+                startActivity(Intent(this@Selected4, Selected4to7a::class.java))
+            "ABB 1st Floor"->
+                startActivity(Intent(this@Selected4, Selected4tob1a::class.java))
+            "ABB 2nd Floor (Room 201 - 208)"->
+                startActivity(Intent(this@Selected4, Selected4tob2a::class.java))
+            "ABB 3rd Floor (Room 301 - 307)"->
+                startActivity(Intent(this@Selected4, Selected4tob3a::class.java))
+            "ABB 4th Floor (Room 401 - 407)"->
+                startActivity(Intent(this@Selected4, Selected4tob4a::class.java))
+            "ABB 5th Floor (Room 501 - 507)"->
+                startActivity(Intent(this@Selected4, Selected4tob5a::class.java))
+            "ABB 6th Floor (Room 601 - 607)"->
+                startActivity(Intent(this@Selected4, Selected4tob6a::class.java))
 
 
 

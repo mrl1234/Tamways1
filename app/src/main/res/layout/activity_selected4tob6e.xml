@@ -7,12 +7,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".Selected4to5c">
+    tools:context=".Selected4tob6e">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="44dp"
-        android:text="   NB 2nd Floor to NB 5th Floor"
+        android:text="   NB 2nd Floor to ABB 6th Floor"
         android:textAlignment="gravity"
         android:textColor="@color/black"
         android:textColorHighlight="#E91E63"
@@ -22,7 +22,7 @@
     <com.jsibbold.zoomage.ZoomageView
         android:layout_width="match_parent"
         android:layout_height="403dp"
-        android:src="@drawable/nbgateto5a" />
+        android:src="@drawable/shortcutb" />
 
     <LinearLayout
         android:layout_width="match_parent"

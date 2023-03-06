@@ -49,7 +49,6 @@ class MainActivity : AppCompatActivity(), UsersAdapter.ClickListener {
         var userList = ArrayList<UserModel>()
         userList.add(UserModel("NB Gate"))
         userList.add(UserModel("ABB Entrance"))
-        userList.add(UserModel("PAV"))
         userList.add(UserModel("NB 1st Floor"))
         userList.add(UserModel("NB 2nd Floor"))
         userList.add(UserModel("NB 3rd Floor"))
@@ -79,6 +78,8 @@ class MainActivity : AppCompatActivity(), UsersAdapter.ClickListener {
                 startActivity(Intent(this@MainActivity, SelectedOne::class.java))
             "ABB Entrance"->
                 startActivity(Intent(this@MainActivity, Selected2::class.java))
+            "NB 1st Floor"->
+                startActivity(Intent(this@MainActivity, Selected3::class.java))
 
 
             else -> {

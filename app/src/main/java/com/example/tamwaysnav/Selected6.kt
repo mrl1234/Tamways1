@@ -16,15 +16,15 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.tamwaysnav.R.id.recyclerView
 
 
-class Selected5 : AppCompatActivity(), UsersAdapter.ClickListener {
+class Selected6 : AppCompatActivity(), UsersAdapter.ClickListener {
 
     private lateinit var rvUsers: RecyclerView
-    private lateinit var usersAdapter5: UsersAdapter;
+    private lateinit var usersAdapter6: UsersAdapter;
     private lateinit var toolbar: Toolbar;
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_selected5)
+        setContentView(R.layout.activity_selected6)
         initData();
     }
 
@@ -39,8 +39,8 @@ class Selected5 : AppCompatActivity(), UsersAdapter.ClickListener {
     private fun initRecyclerView(){
         rvUsers.layoutManager = LinearLayoutManager(this)
         rvUsers.addItemDecoration(DividerItemDecoration(this, DividerItemDecoration.VERTICAL))
-        usersAdapter5 = UsersAdapter(this);
-        rvUsers.adapter = usersAdapter5;
+        usersAdapter6 = UsersAdapter(this);
+        rvUsers.adapter = usersAdapter6;
         showData();
 
 
@@ -59,7 +59,7 @@ class Selected5 : AppCompatActivity(), UsersAdapter.ClickListener {
         userList.add(UserModel("NB Bio Chemistry Laboratory"))
         userList.add(UserModel("NB 1st Floor (Room 101 - 103)"))
         userList.add(UserModel("NB 2nd Floor (Room 201 - 207)"))
-        userList.add(UserModel("NB 4th Floor (Room 401 - 409)"))
+        userList.add(UserModel("NB 3rd Floor (Room 301 - 309)"))
         userList.add(UserModel("NB 5th Floor (Room 501 - 509)"))
         userList.add(UserModel("NB 6th Floor (Room 601 - 610)"))
         userList.add(UserModel("NB 7th Floor (Room 701 - 709)"))
@@ -74,7 +74,7 @@ class Selected5 : AppCompatActivity(), UsersAdapter.ClickListener {
     }
 
     private fun showData(){
-        usersAdapter5.setData(populateUsers())
+        usersAdapter6.setData(populateUsers())
     }
 
     override fun clickedItem(userModel: UserModel) {
@@ -82,35 +82,35 @@ class Selected5 : AppCompatActivity(), UsersAdapter.ClickListener {
 
         when(userModel.username){
             "ABB Canteen"->
-                startActivity(Intent(this@Selected5, Selected2to2::class.java))
+                startActivity(Intent(this@Selected6, Selected2to2::class.java))
             "NB Canteen"->
-                startActivity(Intent(this@Selected5, Selected5to1a::class.java))
+                startActivity(Intent(this@Selected6, Selected6to1e::class.java))
             "NB Gate"->
-                startActivity(Intent(this@Selected5, Selected5to1g::class.java))
+                startActivity(Intent(this@Selected6, Selected6to1i::class.java))
             "NB Finance"->
-                startActivity(Intent(this@Selected5, Selected5to2a::class.java))
+                startActivity(Intent(this@Selected6, Selected6to2d::class.java))
             "NB Registrar"->
-                startActivity(Intent(this@Selected5, Selected5to2c::class.java))
+                startActivity(Intent(this@Selected6, Selected6to2g::class.java))
             "NB SHS Faculty Room"->
-                startActivity(Intent(this@Selected5, Selected5to2e::class.java))
+                startActivity(Intent(this@Selected6, Selected6to2j::class.java))
             "NB OGLH"->
-                startActivity(Intent(this@Selected5, Selected5to4c::class.java))
+                startActivity(Intent(this@Selected6, Selected6to41::class.java))
             "NB Bio Chemistry Laboratory"->
-                startActivity(Intent(this@Selected5, Selected5to4e::class.java))
+                startActivity(Intent(this@Selected6, Selected6to42::class.java))
             "NB 1st Floor (Room 101 - 103)"->
-                startActivity(Intent(this@Selected5, Selected5to1d::class.java))
+                startActivity(Intent(this@Selected6, Selected6to1a::class.java))
             "NB 2nd Floor (Room 201 - 207)"->
-                startActivity(Intent(this@Selected5, Selected5to2g::class.java))
-            "NB 4th Floor (Room 401 - 409)"->
-                startActivity(Intent(this@Selected5, Selected5to4a::class.java))
+                startActivity(Intent(this@Selected6, Selected6to2a::class.java))
+            "NB 3rd Floor (Room 301 - 309)"->
+                startActivity(Intent(this@Selected6, Selected6to3a::class.java))
             "NB 5th Floor (Room 501 - 509)"->
-                startActivity(Intent(this@Selected5, Selected5to5a::class.java))
+                startActivity(Intent(this@Selected6, Selected6to5a::class.java))
             "NB 6th Floor (Room 601 - 610)"->
-                startActivity(Intent(this@Selected5, Selected5to6a::class.java))
+                startActivity(Intent(this@Selected6, Selected6to6a::class.java))
             "NB 7th Floor (Room 701 - 709)"->
-                startActivity(Intent(this@Selected5, Selected5to7a::class.java))
+                startActivity(Intent(this@Selected6, Selected6to7a::class.java))
             "ABB 1st Floor"->
-                startActivity(Intent(this@Selected5, Selected2to1::class.java))
+                startActivity(Intent(this@Selected6, Selected2to1::class.java))
 
             else -> {
                 Toast.makeText(this,"Wala pa", Toast.LENGTH_LONG).show()
@@ -130,7 +130,7 @@ class Selected5 : AppCompatActivity(), UsersAdapter.ClickListener {
             }
 
             override fun onQueryTextChange(newText: String?): Boolean {
-                usersAdapter5.filter.filter(newText)
+                usersAdapter6.filter.filter(newText)
                 return true;
             }
 

@@ -82,6 +82,8 @@ class MainActivity : AppCompatActivity(), UsersAdapter.ClickListener {
                 startActivity(Intent(this@MainActivity, Selected3::class.java))
             "NB 2nd Floor"->
                 startActivity(Intent(this@MainActivity, Selected4::class.java))
+            "NB 3rd Floor"->
+                startActivity(Intent(this@MainActivity, Selected5::class.java))
 
 
             else -> {

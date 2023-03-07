@@ -90,6 +90,10 @@ class Selected2 : AppCompatActivity(), UsersAdapter.ClickListener {
                 startActivity(Intent(this@Selected2, Selected2to2g::class.java))
             "NB SHS Faculty Room"->
                 startActivity(Intent(this@Selected2, Selected2to2j::class.java))
+            "NB OGLH"->
+                startActivity(Intent(this@Selected2, Selected2to4f::class.java))
+            "NB Bio Chemistry Laboratory"->
+                startActivity(Intent(this@Selected2, Selected2to4j::class.java))
             "NB 1st Floor (Room 101 - 103)"->
                 startActivity(Intent(this@Selected2, Selected2to1a::class.java))
             "NB 2nd Floor (Room 201 - 207)"->

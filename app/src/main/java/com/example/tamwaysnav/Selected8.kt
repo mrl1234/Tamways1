@@ -82,31 +82,31 @@ class Selected8 : AppCompatActivity(), UsersAdapter.ClickListener {
 
         when(userModel.username){
             "NB Gate"->
-                startActivity(Intent(this@Selected8, Selected7to1k::class.java))
+                startActivity(Intent(this@Selected8, Selected8to1m::class.java))
             "NB Finance"->
-                startActivity(Intent(this@Selected8, Selected7to2e::class.java))
+                startActivity(Intent(this@Selected8, Selected8to2f::class.java))
             "NB Registrar"->
-                startActivity(Intent(this@Selected8, Selected7to2i::class.java))
+                startActivity(Intent(this@Selected8, Selected8to2k::class.java))
             "NB OGLH"->
-                startActivity(Intent(this@Selected8, SelectedOneto4d::class.java))
+                startActivity(Intent(this@Selected8, Selected8to4d::class.java))
             "NB SHS Faculty Room"->
-                startActivity(Intent(this@Selected8, Selected7to2m::class.java))
+                startActivity(Intent(this@Selected8, Selected8to2p::class.java))
             "NB Bio Chemistry Laboratory"->
-                startActivity(Intent(this@Selected8, SelectedOneto4h::class.java))
+                startActivity(Intent(this@Selected8, Selected8to4g::class.java))
             "NB Canteen"->
-                startActivity(Intent(this@Selected8, Selected7to1f::class.java))
+                startActivity(Intent(this@Selected8, Selected8to1g::class.java))
             "NB 1st Floor (Room 101 - 103)"->
-                startActivity(Intent(this@Selected8, Selected7to1a::class.java))
+                startActivity(Intent(this@Selected8, Selected8to1a::class.java))
             "NB 2nd Floor (Room 201 - 207)"->
-                startActivity(Intent(this@Selected8, Selected7to2a::class.java))
+                startActivity(Intent(this@Selected8, Selected8to2a::class.java))
             "NB 3rd Floor (Room 301 - 309)"->
-                startActivity(Intent(this@Selected8, Selected7to3a::class.java))
+                startActivity(Intent(this@Selected8, Selected8to3a::class.java))
             "NB 4th Floor (Room 401 - 409)"->
-                startActivity(Intent(this@Selected8, Selected7to4a::class.java))
+                startActivity(Intent(this@Selected8, Selected8to4a::class.java))
             "NB 5th Floor (Room 501 - 509)"->
-                startActivity(Intent(this@Selected8, Selected7to6a::class.java))
+                startActivity(Intent(this@Selected8, Selected8to5a::class.java))
             "NB 7th Floor (Room 701 - 709)"->
-                startActivity(Intent(this@Selected8, Selected7to7a::class.java))
+                startActivity(Intent(this@Selected8, Selected8to7a::class.java))
 
 
 

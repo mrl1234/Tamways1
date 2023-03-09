@@ -93,6 +93,8 @@ class Selected8 : AppCompatActivity(), UsersAdapter.ClickListener {
                 startActivity(Intent(this@Selected8, Selected8to2p::class.java))
             "NB Bio Chemistry Laboratory"->
                 startActivity(Intent(this@Selected8, Selected8to4g::class.java))
+            "ABB Canteen"->
+                startActivity(Intent(this@Selected8, Selected8tob1g::class.java))
             "NB Canteen"->
                 startActivity(Intent(this@Selected8, Selected8to1g::class.java))
             "NB 1st Floor (Room 101 - 103)"->
@@ -107,6 +109,18 @@ class Selected8 : AppCompatActivity(), UsersAdapter.ClickListener {
                 startActivity(Intent(this@Selected8, Selected8to5a::class.java))
             "NB 7th Floor (Room 701 - 709)"->
                 startActivity(Intent(this@Selected8, Selected8to7a::class.java))
+            "ABB 1st Floor"->
+                startActivity(Intent(this@Selected8, Selected8tob1a::class.java))
+            "ABB 2nd Floor (Room 201 - 208)"->
+                startActivity(Intent(this@Selected8, Selected8tob2a::class.java))
+            "ABB 3rd Floor (Room 301 - 307)"->
+                startActivity(Intent(this@Selected8, Selected8tob3a::class.java))
+            "ABB 4th Floor (Room 401 - 407)"->
+                startActivity(Intent(this@Selected8, Selected8tob4a::class.java))
+            "ABB 5th Floor (Room 501 - 507)"->
+                startActivity(Intent(this@Selected8, Selected8tob5a::class.java))
+            "ABB 6th Floor (Room 601 - 607)"->
+                startActivity(Intent(this@Selected8, Selected8tob6a::class.java))
 
 
 

@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:background="@drawable/background_bg"
     android:layout_height="match_parent"
-    tools:context=".SelectedOne">
+    tools:context=".Selected9">
 
     <LinearLayout
-        android:id="@+id/llToolbar2"
+        android:id="@+id/llToolbar"
         android:layout_width="0dp"
         android:layout_height="70dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,9 +23,10 @@
                 android:layout_gravity="center_horizontal"
                 android:textSize="16sp"
                 android:textColor="@color/white"
-                android:text="Desired Destination"
+                android:text="Desired Location"
                 android:layout_height="wrap_content"/>
         </androidx.appcompat.widget.Toolbar>
+
     </LinearLayout>
 
     <LinearLayout
@@ -33,7 +34,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/llToolbar2"
+        app:layout_constraintTop_toBottomOf="@+id/llToolbar"
         android:padding="10dp"
         android:layout_height="0dp"
         android:background="@drawable/recyclerview_bg">

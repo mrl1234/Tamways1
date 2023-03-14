@@ -14,15 +14,15 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 
-class MainActivity : AppCompatActivity(), UsersAdapter.ClickListener {
+class Selected10 : AppCompatActivity(), UsersAdapter.ClickListener {
 
     private lateinit var rvUsers: RecyclerView
-    private lateinit var usersAdapter: UsersAdapter;
+    private lateinit var usersAdapter10: UsersAdapter;
     private lateinit var toolbar: Toolbar;
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_selected10)
         initData();
     }
 
@@ -37,8 +37,8 @@ class MainActivity : AppCompatActivity(), UsersAdapter.ClickListener {
     private fun initRecyclerView(){
         rvUsers.layoutManager = LinearLayoutManager(this)
         rvUsers.addItemDecoration(DividerItemDecoration(this, DividerItemDecoration.VERTICAL))
-        usersAdapter = UsersAdapter(this);
-        rvUsers.adapter = usersAdapter;
+        usersAdapter10 = UsersAdapter(this);
+        rvUsers.adapter = usersAdapter10;
         showData();
 
 
@@ -47,53 +47,41 @@ class MainActivity : AppCompatActivity(), UsersAdapter.ClickListener {
     private fun populateUsers():List<UserModel>{
 
         var userList = ArrayList<UserModel>()
-        userList.add(UserModel("NB Gate"))
-        userList.add(UserModel("ABB Entrance"))
-        userList.add(UserModel("NB 1st Floor"))
-        userList.add(UserModel("NB 2nd Floor"))
-        userList.add(UserModel("NB 3rd Floor"))
-        userList.add(UserModel("NB 4th Floor"))
-        userList.add(UserModel("NB 5th Floor"))
-        userList.add(UserModel("NB 6th Floor"))
-        userList.add(UserModel("NB 7th Floor"))
+        userList.add(UserModel("NB Canteen"))
+        userList.add(UserModel("ABB Canteen"))
+        userList.add(UserModel("PAV"))
+        userList.add(UserModel("NB Finance"))
+        userList.add(UserModel("NB Registrar"))
+        userList.add(UserModel("NB OGLH"))
+        userList.add(UserModel("NB SHS Faculty Room"))
+        userList.add(UserModel("NB Bio Chemistry Laboratory"))
+        userList.add(UserModel("NB 1st Floor (Room 101 - 103)"))
+        userList.add(UserModel("NB 2nd Floor (Room 201 - 207)"))
+        userList.add(UserModel("NB 3rd Floor (Room 301 - 309)"))
+        userList.add(UserModel("NB 4th Floor (Room 401 - 409)"))
+        userList.add(UserModel("NB 5th Floor (Room 501 - 509)"))
+        userList.add(UserModel("NB 6th Floor (Room 601 - 610)"))
+        userList.add(UserModel("NB 7th Floor (Room 701 - 709)"))
         userList.add(UserModel("ABB 1st Floor"))
-        userList.add(UserModel("ABB 2nd Floor"))
-        userList.add(UserModel("ABB 3rd Floor"))
-        userList.add(UserModel("ABB 4th Floor"))
-        userList.add(UserModel("ABB 5th Floor"))
-        userList.add(UserModel("ABB 6th Floor"))
+        userList.add(UserModel("ABB 2nd Floor (Room 201 - 208)"))
+        userList.add(UserModel("ABB 3rd Floor (Room 301 - 307)"))
+        userList.add(UserModel("ABB 4th Floor (Room 401 - 407)"))
+        userList.add(UserModel("ABB 5th Floor (Room 501 - 507)"))
+        userList.add(UserModel("ABB 6th Floor (Room 601 - 607)"))
+
 
         return userList;
     }
 
     private fun showData(){
-        usersAdapter.setData(populateUsers())
+        usersAdapter10.setData(populateUsers())
     }
 
     override fun clickedItem(userModel: UserModel) {
         Log.e("TAG", userModel.username);
 
         when(userModel.username){
-            "NB Gate"->
-                startActivity(Intent(this@MainActivity, SelectedOne::class.java))
-            "ABB Entrance"->
-                startActivity(Intent(this@MainActivity, Selected2::class.java))
-            "NB 1st Floor"->
-                startActivity(Intent(this@MainActivity, Selected3::class.java))
-            "NB 2nd Floor"->
-                startActivity(Intent(this@MainActivity, Selected4::class.java))
-            "NB 3rd Floor"->
-                startActivity(Intent(this@MainActivity, Selected5::class.java))
-            "NB 4th Floor"->
-                startActivity(Intent(this@MainActivity, Selected6::class.java))
-            "NB 5th Floor"->
-                startActivity(Intent(this@MainActivity, Selected7::class.java))
-            "NB 6th Floor"->
-                startActivity(Intent(this@MainActivity, Selected8::class.java))
-            "NB 7th Floor"->
-                startActivity(Intent(this@MainActivity, Selected9::class.java))
-            "ABB 1st Floor"->
-                startActivity(Intent(this@MainActivity, Selected10::class.java))
+
 
 
             else -> {
@@ -114,7 +102,7 @@ class MainActivity : AppCompatActivity(), UsersAdapter.ClickListener {
             }
 
             override fun onQueryTextChange(newText: String?): Boolean {
-                usersAdapter.filter.filter(newText)
+                usersAdapter10.filter.filter(newText)
                 return true;
             }
 
@@ -125,6 +113,5 @@ class MainActivity : AppCompatActivity(), UsersAdapter.ClickListener {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return super.onOptionsItemSelected(item)
     }
-
 }
 

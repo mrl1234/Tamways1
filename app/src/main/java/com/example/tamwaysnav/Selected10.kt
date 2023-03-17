@@ -49,7 +49,6 @@ class Selected10 : AppCompatActivity(), UsersAdapter.ClickListener {
         var userList = ArrayList<UserModel>()
         userList.add(UserModel("NB Canteen"))
         userList.add(UserModel("ABB Canteen"))
-        userList.add(UserModel("PAV"))
         userList.add(UserModel("NB Finance"))
         userList.add(UserModel("NB Registrar"))
         userList.add(UserModel("NB OGLH"))
@@ -81,6 +80,8 @@ class Selected10 : AppCompatActivity(), UsersAdapter.ClickListener {
         Log.e("TAG", userModel.username);
 
         when(userModel.username){
+            "ABB Canteen"->
+                startActivity(Intent(this@Selected10, Selected10tob1a::class.java))
 
 
 

@@ -50,7 +50,6 @@ class Selected9 : AppCompatActivity(), UsersAdapter.ClickListener {
         userList.add(UserModel("NB Gate"))
         userList.add(UserModel("NB Canteen"))
         userList.add(UserModel("ABB Canteen"))
-        userList.add(UserModel("PAV"))
         userList.add(UserModel("NB Finance"))
         userList.add(UserModel("NB Registrar"))
         userList.add(UserModel("NB OGLH"))
@@ -107,7 +106,7 @@ class Selected9 : AppCompatActivity(), UsersAdapter.ClickListener {
                 startActivity(Intent(this@Selected9, Selected9to4a::class.java))
             "NB 5th Floor (Room 501 - 509)"->
                 startActivity(Intent(this@Selected9, Selected9to5a::class.java))
-            "NB 6th Floor (Room 601 - 620)"->
+            "NB 6th Floor (Room 601 - 610)"->
                 startActivity(Intent(this@Selected9, Selected9to6a::class.java))
             "ABB 1st Floor"->
                 startActivity(Intent(this@Selected9, Selected9tob1a::class.java))

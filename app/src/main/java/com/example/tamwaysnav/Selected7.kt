@@ -50,7 +50,6 @@ class Selected7 : AppCompatActivity(), UsersAdapter.ClickListener {
         userList.add(UserModel("NB Gate"))
         userList.add(UserModel("NB Canteen"))
         userList.add(UserModel("ABB Canteen"))
-        userList.add(UserModel("PAV"))
         userList.add(UserModel("NB Finance"))
         userList.add(UserModel("NB Registrar"))
         userList.add(UserModel("NB OGLH"))

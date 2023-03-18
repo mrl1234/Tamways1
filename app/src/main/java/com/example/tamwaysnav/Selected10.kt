@@ -61,7 +61,6 @@ class Selected10 : AppCompatActivity(), UsersAdapter.ClickListener {
         userList.add(UserModel("NB 5th Floor (Room 501 - 509)"))
         userList.add(UserModel("NB 6th Floor (Room 601 - 610)"))
         userList.add(UserModel("NB 7th Floor (Room 701 - 709)"))
-        userList.add(UserModel("ABB 1st Floor"))
         userList.add(UserModel("ABB 2nd Floor (Room 201 - 208)"))
         userList.add(UserModel("ABB 3rd Floor (Room 301 - 307)"))
         userList.add(UserModel("ABB 4th Floor (Room 401 - 407)"))
@@ -82,6 +81,16 @@ class Selected10 : AppCompatActivity(), UsersAdapter.ClickListener {
         when(userModel.username){
             "ABB Canteen"->
                 startActivity(Intent(this@Selected10, Selected10tob1a::class.java))
+            "ABB 2nd Floor (Room 201 - 208)"->
+                startActivity(Intent(this@Selected10, Selected10tob2a::class.java))
+            "ABB 3rd Floor (Room 301 - 307)"->
+                startActivity(Intent(this@Selected10, Selected10tob3a::class.java))
+            "ABB 4th Floor (Room 401 - 407)"->
+                startActivity(Intent(this@Selected10, Selected10tob4a::class.java))
+            "ABB 5th Floor (Room 501 - 507)"->
+                startActivity(Intent(this@Selected10, Selected10tob5a::class.java))
+            "ABB 6th Floor (Room 601 - 607)"->
+                startActivity(Intent(this@Selected10, Selected10tob6a::class.java))
 
 
 

@@ -7,12 +7,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".Selected14tob1f">
+    tools:context=".Selected14tob3a">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="   ABB 5th Floor to ABB Canteen"
+        android:text="   ABB 5th Floor to ABB 3rd Floor"
         android:textAlignment="gravity"
         android:textColor="@color/black"
         android:textColorHighlight="#E91E63"

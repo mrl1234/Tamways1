@@ -7,12 +7,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".Selected14tob1f">
+    tools:context=".Selected14tob4b">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="   ABB 5th Floor to ABB Canteen"
+        android:text="   ABB 5th Floor to ABB 4th Floor"
         android:textAlignment="gravity"
         android:textColor="@color/black"
         android:textColorHighlight="#E91E63"
@@ -21,23 +21,7 @@
 
     <com.jsibbold.zoomage.ZoomageView
         android:layout_width="match_parent"
-        android:layout_height="325dp"
-        android:src="@drawable/abb5down" />
+        android:layout_height="357dp"
+        android:src="@drawable/abb4" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="184dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button"
-            android:text="Next"
-            android:textSize="20sp" />
-
-
-    </LinearLayout>
 </LinearLayout>

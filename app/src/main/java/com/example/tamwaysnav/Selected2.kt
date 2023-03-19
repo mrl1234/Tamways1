@@ -84,6 +84,10 @@ class Selected2 : AppCompatActivity(), UsersAdapter.ClickListener {
         when(userModel.username){
             "ABB Canteen"->
                 startActivity(Intent(this@Selected2, Selected2to2::class.java))
+            "NB Canteen"->
+                startActivity(Intent(this@Selected2, Selected2to1c::class.java))
+            "NB Gate"->
+                startActivity(Intent(this@Selected2, Selected2to1e::class.java))
             "NB Finance"->
                 startActivity(Intent(this@Selected2, Selected2to2d::class.java))
             "NB Registrar"->

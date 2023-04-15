@@ -47,6 +47,7 @@ class Selected11 : AppCompatActivity(), UsersAdapter.ClickListener {
     private fun populateUsers():List<UserModel>{
 
         var userList = ArrayList<UserModel>()
+        userList.add(UserModel("NB Gate"))
         userList.add(UserModel("NB Canteen"))
         userList.add(UserModel("ABB Canteen"))
         userList.add(UserModel("NB Finance"))
@@ -81,6 +82,12 @@ class Selected11 : AppCompatActivity(), UsersAdapter.ClickListener {
         when(userModel.username){
             "ABB Canteen"->
                 startActivity(Intent(this@Selected11, Selected11tob1c::class.java))
+            "NB 1st Floor (Room 101 - 103)"->
+                startActivity(Intent(this@Selected11, Selected11to1a::class.java))
+            "NB Gate"->
+                startActivity(Intent(this@Selected11, Selected11to1g::class.java))
+            "NB Canteen"->
+                startActivity(Intent(this@Selected11, Selected11to1d::class.java))
             "ABB 1st Floor"->
                 startActivity(Intent(this@Selected11, Selected11tob1a::class.java))
             "ABB 3rd Floor (Room 301 - 307)"->

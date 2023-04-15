@@ -56,18 +56,18 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="79dp"
+        android:layout_height="60dp"
         android:gravity="center"
         android:orientation="horizontal">
-
 
         <Button
             android:id="@+id/button2"
             android:layout_width="336dp"
-            android:layout_height="wrap_content"
+            android:layout_height="25dp"
             android:background="@null"
             android:onClick="activity2_main"
-            android:text="Instructions"
-            android:textSize="20sp" />
+            android:text="How to use?"
+            android:textColor="@color/green"
+            android:textSize="15sp" />
     </LinearLayout>
 </LinearLayout>

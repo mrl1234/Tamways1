@@ -13,6 +13,33 @@
         android:theme="@style/Theme.TamwaysNav"
         tools:targetApi="31">
         <activity
+            android:name=".Selected11to1i"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to1h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to1g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to1f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to1e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to1d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to1c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to1b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to1a"
+            android:exported="false" />
+        <activity
             android:name=".Selected10to7h"
             android:exported="false" />
         <activity

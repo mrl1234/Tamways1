@@ -13,6 +13,183 @@
         android:theme="@style/Theme.TamwaysNav"
         tools:targetApi="31">
         <activity
+            android:name=".Selected10to7h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to7g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to7f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to7e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to7d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to7c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to7b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to7a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to6g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to6f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to6e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to6d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to6c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to6b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to6a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to5f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to5e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to5d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to5c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to5b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to5a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to4o"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to4n"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to4m"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to4l"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to4k"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to4j"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to4i"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to4h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to4g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to4f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to4e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to4d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to4c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to4b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to4a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to3d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to3c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to3b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to3a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to2l"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to2k"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to2j"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to2i"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to2h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to2g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to2f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to2e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to2d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to2c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to2b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to2a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to1f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to1e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to1d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to1c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to1b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected10to1a"
+            android:exported="false" />
+        <activity
+            android:name=".Instructions"
+            android:exported="false" />
+        <activity
             android:name=".Selected15"
             android:exported="false" />
         <activity

@@ -47,6 +47,7 @@ class Selected10 : AppCompatActivity(), UsersAdapter.ClickListener {
     private fun populateUsers():List<UserModel>{
 
         var userList = ArrayList<UserModel>()
+        userList.add(UserModel("NB Gate"))
         userList.add(UserModel("NB Canteen"))
         userList.add(UserModel("ABB Canteen"))
         userList.add(UserModel("NB Finance"))
@@ -81,6 +82,28 @@ class Selected10 : AppCompatActivity(), UsersAdapter.ClickListener {
         when(userModel.username){
             "ABB Canteen"->
                 startActivity(Intent(this@Selected10, Selected10tob1a::class.java))
+            "NB 2nd Floor (Room 201 - 207)"->
+                startActivity(Intent(this@Selected10, Selected10to2a::class.java))
+            "NB 3rd Floor (Room 301 - 309)"->
+                startActivity(Intent(this@Selected10, Selected10to3a::class.java))
+            "NB 4th Floor (Room 401 - 409)"->
+                startActivity(Intent(this@Selected10, Selected10to4a::class.java))
+            "NB 5th Floor (Room 501 - 509)"->
+                startActivity(Intent(this@Selected10, Selected10to5a::class.java))
+            "NB 6th Floor (Room 601 - 610)"->
+                startActivity(Intent(this@Selected10, Selected10to6a::class.java))
+            "NB 7th Floor (Room 701 - 709)"->
+                startActivity(Intent(this@Selected10, Selected10to7a::class.java))
+            "NB Bio Chemistry Laboratory"->
+                startActivity(Intent(this@Selected10, Selected10to4f::class.java))
+            "NB OGLH"->
+                startActivity(Intent(this@Selected10, Selected10to4k::class.java))
+            "NB Registrar"->
+                startActivity(Intent(this@Selected10, Selected10to2d::class.java))
+            "NB Finance"->
+                startActivity(Intent(this@Selected10, Selected10to2g::class.java))
+            "NB SHS Faculty Room"->
+                startActivity(Intent(this@Selected10, Selected10to2j::class.java))
             "ABB 2nd Floor (Room 201 - 208)"->
                 startActivity(Intent(this@Selected10, Selected10tob2a::class.java))
             "ABB 3rd Floor (Room 301 - 307)"->
@@ -91,6 +114,13 @@ class Selected10 : AppCompatActivity(), UsersAdapter.ClickListener {
                 startActivity(Intent(this@Selected10, Selected10tob5a::class.java))
             "ABB 6th Floor (Room 601 - 607)"->
                 startActivity(Intent(this@Selected10, Selected10tob6a::class.java))
+            "NB 1st Floor (Room 101 - 103)"->
+                startActivity(Intent(this@Selected10, Selected10to1a::class.java))
+            "NB Canteen"->
+                startActivity(Intent(this@Selected10, Selected10to1c::class.java))
+            "NB Gate"->
+                startActivity(Intent(this@Selected10, Selected10to1e::class.java))
+
 
 
 

@@ -13,6 +13,108 @@
         android:theme="@style/Theme.TamwaysNav"
         tools:targetApi="31">
         <activity
+            android:name=".Pavillion"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4l"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4k"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4j"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4i"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to3e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to3d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to3c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to3b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to3a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to2p"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to2o"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to2n"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to2m"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to2l"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to2k"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to2j"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to2i"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to2h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to2g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to2f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to2e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to2d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to2c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to2b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to2a"
+            android:exported="false" />
+        <activity
             android:name=".Selected11to1i"
             android:exported="false" />
         <activity
@@ -5563,6 +5665,10 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

@@ -84,6 +84,18 @@ class Selected11 : AppCompatActivity(), UsersAdapter.ClickListener {
                 startActivity(Intent(this@Selected11, Selected11tob1c::class.java))
             "NB 1st Floor (Room 101 - 103)"->
                 startActivity(Intent(this@Selected11, Selected11to1a::class.java))
+            "NB 2nd Floor (Room 201 - 207)"->
+                startActivity(Intent(this@Selected11, Selected11to2a::class.java))
+            "NB Finance"->
+                startActivity(Intent(this@Selected11, Selected11to2e::class.java))
+            "NB Registrar"->
+                startActivity(Intent(this@Selected11, Selected11to2i::class.java))
+            "NB SHS Faculty Room"->
+                startActivity(Intent(this@Selected11, Selected11to2m::class.java))
+            "NB 3rd Floor (Room 301 - 309)"->
+                startActivity(Intent(this@Selected11, Selected11to1a::class.java))
+            "NB 4th Floor (Room 401 - 409)"->
+                startActivity(Intent(this@Selected11, Selected11to1a::class.java))
             "NB Gate"->
                 startActivity(Intent(this@Selected11, Selected11to1g::class.java))
             "NB Canteen"->

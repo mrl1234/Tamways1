@@ -4,40 +4,85 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".Selected6tob1d">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"></LinearLayout>
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="44dp"
-        android:text="   NB 4th Floor to ABB 1st Floor"
+        android:layout_height="155dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="  NB 4th Floor to ABB 1st Floor"
         android:textAlignment="gravity"
         android:textColor="@color/black"
         android:textColorHighlight="#E91E63"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="normal">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:text=" NB 1st Floor"
+        android:textAlignment="gravity"
+        android:textColor="@color/green"
+        android:textColorHighlight="#E91E63"
+        android:textSize="25sp"
+        android:textStyle="" />
 
     <com.jsibbold.zoomage.ZoomageView
         android:layout_width="match_parent"
-        android:layout_height="389dp"
+        android:layout_height="398dp"
+        android:layout_gravity="center"
         android:src="@drawable/second3" />
+
+    <Button
+        android:id="@+id/landmark"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:text="Landmark 1" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="10dp"
         android:gravity="center"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="63dp"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button2"
-            android:layout_width="184dp"
+            android:id="@+id/button1"
+            android:layout_width="20dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="Previous"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="64dp"
+            android:layout_height="61dp"
+            android:orientation="horizontal" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="@drawable/button"
             android:text="Next"
             android:textSize="20sp" />
-
-
     </LinearLayout>
 </LinearLayout>

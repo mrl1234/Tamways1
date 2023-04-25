@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".Selected7to4f">
+    tools:context=".Selected7to7c">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="155dp"
         android:fontFamily="@font/abril_fatface"
-        android:text="  NB 5th Floor to NB OGLH"
+        android:text="  NB 5th Floor to NB 7th Floor"
         android:textAlignment="gravity"
         android:textColor="@color/black"
         android:textColorHighlight="#E91E63"
@@ -32,7 +32,7 @@
         android:layout_height="49dp"
         android:fontFamily="@font/abril_fatface"
         android:gravity="center"
-        android:text=" NB 4th Floor"
+        android:text=" NB 7th Floor"
         android:textAlignment="gravity"
         android:textColor="@color/green"
         android:textColorHighlight="#E91E63"
@@ -43,7 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="384dp"
         android:layout_gravity="center"
-        android:src="@drawable/fourstooglh" />
+        android:src="@drawable/nbgateto7b" />
 
     <Button
         android:id="@+id/landmark"

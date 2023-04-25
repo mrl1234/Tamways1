@@ -5,20 +5,20 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class Selected9to4e : AppCompatActivity() {
+class Selected7to7c : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_selected9to4e)
+        setContentView(R.layout.activity_selected7to7c)
 
         val MainAcbutton =findViewById<Button>(R.id.button1)
         MainAcbutton.setOnClickListener {
-            val Intent = Intent(this,Selected9::class.java)
+            val Intent = Intent(this,Selected7to7b::class.java)
             startActivity(Intent)
         }
 
         val MainActbutton =findViewById<Button>(R.id.button2)
         MainActbutton.setOnClickListener {
-            val Intent = Intent(this,Selected9to4f::class.java)
+            val Intent = Intent(this,MainActivity::class.java)
             startActivity(Intent)
         }
     }

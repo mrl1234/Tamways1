@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TamwaysNav"
         tools:targetApi="31">
         <activity
+            android:name=".Selected7to7c"
+            android:exported="false" />
+        <activity
             android:name=".Pavillion"
             android:exported="false" />
         <activity

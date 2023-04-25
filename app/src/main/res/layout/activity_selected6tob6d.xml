@@ -41,7 +41,7 @@
 
     <com.jsibbold.zoomage.ZoomageView
         android:layout_width="match_parent"
-        android:layout_height="383dp"
+        android:layout_height="349dp"
         android:layout_gravity="center"
         android:src="@drawable/nbgatetob6b" />
 

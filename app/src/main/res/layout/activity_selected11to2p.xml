@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="155dp"
         android:fontFamily="@font/abril_fatface"
-        android:text="   ABB 2nd Floor to NB SHS Faculty Room"
+        android:text="   ABB 2nd Floor to SHS Faculty Room"
         android:textAlignment="gravity"
         android:textColor="@color/black"
         android:textColorHighlight="#E91E63"

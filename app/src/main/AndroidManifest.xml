@@ -13,6 +13,99 @@
         android:theme="@style/Theme.TamwaysNav"
         tools:targetApi="31">
         <activity
+            android:name=".Selected11to7i"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to7h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to7g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to7f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to7e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to7d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to7c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to7b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to7a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to6h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to6g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to6f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to6e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to6d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to6c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to6b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to6a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to5g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to5f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to5e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to5d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to5c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to5b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to5a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4r"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4q"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4p"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4o"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4n"
+            android:exported="false" />
+        <activity
+            android:name=".Selected11to4m"
+            android:exported="false" />
+        <activity
+            android:name=".SelectedOneto2g"
+            android:exported="false" />
+        <activity
             android:name=".Selected7to7c"
             android:exported="false" />
         <activity

@@ -10,7 +10,13 @@ class SelectedOneto5d : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_selected_oneto5d)
 
-        val MainActbutton =findViewById<Button>(R.id.button13)
+        val MainAcbutton =findViewById<Button>(R.id.button1)
+        MainAcbutton.setOnClickListener {
+            val Intent = Intent(this,SelectedOneto5c::class.java)
+            startActivity(Intent)
+        }
+
+        val MainActbutton =findViewById<Button>(R.id.button2)
         MainActbutton.setOnClickListener {
             val Intent = Intent(this,SelectedOneto5e::class.java)
             startActivity(Intent)

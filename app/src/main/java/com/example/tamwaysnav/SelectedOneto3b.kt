@@ -10,7 +10,13 @@ class SelectedOneto3b : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_selected_oneto3b)
 
-        val MainActbutton =findViewById<Button>(R.id.button5)
+        val MainAcbutton =findViewById<Button>(R.id.button1)
+        MainAcbutton.setOnClickListener {
+            val Intent = Intent(this,SelectedOneto3a::class.java)
+            startActivity(Intent)
+        }
+
+        val MainActbutton =findViewById<Button>(R.id.button2)
         MainActbutton.setOnClickListener {
             val Intent = Intent(this,SelectedOneto3c::class.java)
             startActivity(Intent)

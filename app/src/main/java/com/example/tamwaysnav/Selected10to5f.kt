@@ -10,6 +10,12 @@ class Selected10to5f : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_selected10to5f)
 
+        val MainAcbutton =findViewById<Button>(R.id.button1)
+        MainAcbutton.setOnClickListener {
+            val Intent = Intent(this,Selected10to5e::class.java)
+            startActivity(Intent)
+        }
+
         val MainActbutton =findViewById<Button>(R.id.button2)
         MainActbutton.setOnClickListener {
             val Intent = Intent(this,MainActivity::class.java)

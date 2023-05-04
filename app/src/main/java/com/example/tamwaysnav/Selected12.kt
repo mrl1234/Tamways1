@@ -91,6 +91,34 @@ class Selected12 : AppCompatActivity(), UsersAdapter.ClickListener {
                 startActivity(Intent(this@Selected12, Selected12tob5a::class.java))
             "ABB 6th Floor (Room 601 - 607)"->
                 startActivity(Intent(this@Selected12, Selected12tob6a::class.java))
+            "NB 1st Floor (Room 101 - 103)"->
+                startActivity(Intent(this@Selected12, Selected12to1a::class.java))
+            "NB 2nd Floor (Room 201 - 207)"->
+                startActivity(Intent(this@Selected12, Selected12to2a::class.java))
+            "NB 3rd Floor (Room 301 - 309)"->
+                startActivity(Intent(this@Selected12, Selected12to3a::class.java))
+            "NB 4th Floor (Room 401 - 409)"->
+                startActivity(Intent(this@Selected12, Selected12to4a::class.java))
+            "NB 5th Floor (Room 501 - 509)"->
+                startActivity(Intent(this@Selected12, Selected12to5a::class.java))
+            "NB 6th Floor (Room 601 - 610)"->
+                startActivity(Intent(this@Selected12, Selected12to6a::class.java))
+            "NB 7th Floor (Room 701 - 709)"->
+                startActivity(Intent(this@Selected12, Selected12to7a::class.java))
+            "NB Finance"->
+                startActivity(Intent(this@Selected12, Selected12to2f::class.java))
+            "NB Registrar"->
+                startActivity(Intent(this@Selected12, Selected12to2k::class.java))
+            "NB SHS Faculty Room"->
+                startActivity(Intent(this@Selected12, Selected12to2p::class.java))
+            "NB Canteen"->
+                startActivity(Intent(this@Selected12, Selected12to1e::class.java))
+            "NB Gate"->
+                startActivity(Intent(this@Selected12, Selected12to1i::class.java))
+            "NB OGLH"->
+                startActivity(Intent(this@Selected12, Selected12to4f::class.java))
+            "NB Bio Chemistry Laboratory"->
+                startActivity(Intent(this@Selected12, Selected12to4k::class.java))
 
 
 

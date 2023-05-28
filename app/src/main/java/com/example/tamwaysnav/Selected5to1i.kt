@@ -10,6 +10,12 @@ class Selected5to1i : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_selected5to1i)
 
+        val MainAbutton =findViewById<Button>(R.id.landmark)
+        MainAbutton.setOnClickListener {
+            val Intent = Intent(this,NbCanteen::class.java)
+            startActivity(Intent)
+        }
+
         val MainAcbutton =findViewById<Button>(R.id.button1)
         MainAcbutton.setOnClickListener {
             val Intent = Intent(this,Selected5to1h::class.java)

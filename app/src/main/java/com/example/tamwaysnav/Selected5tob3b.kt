@@ -10,6 +10,12 @@ class Selected5tob3b : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_selected5tob3b)
 
+        val MainAbutton =findViewById<Button>(R.id.landmark)
+        MainAbutton.setOnClickListener {
+            val Intent = Intent(this,Atrium::class.java)
+            startActivity(Intent)
+        }
+
         val MainAcbutton =findViewById<Button>(R.id.button1)
         MainAcbutton.setOnClickListener {
             val Intent = Intent(this,Selected5tob3a::class.java)

@@ -10,6 +10,12 @@ class Selected6to1k : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_selected6to1k)
 
+        val MainAbutton =findViewById<Button>(R.id.landmark)
+        MainAbutton.setOnClickListener {
+            val Intent = Intent(this,Atrium::class.java)
+            startActivity(Intent)
+        }
+
         val MainAcbutton =findViewById<Button>(R.id.button1)
         MainAcbutton.setOnClickListener {
             val Intent = Intent(this,Selected6to1j::class.java)

@@ -10,6 +10,12 @@ class Selected8to1r : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_selected8to1r)
 
+        val MainAbutton =findViewById<Button>(R.id.landmark)
+        MainAbutton.setOnClickListener {
+            val Intent = Intent(this,NbCanteen::class.java)
+            startActivity(Intent)
+        }
+
         val MainAcbutton =findViewById<Button>(R.id.button1)
         MainAcbutton.setOnClickListener {
             val Intent = Intent(this,Selected8to1q::class.java)

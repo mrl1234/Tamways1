@@ -10,6 +10,18 @@ class Selected6tob2e : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_selected6tob2e)
 
+        val Mainbutton =findViewById<Button>(R.id.landmark1)
+        Mainbutton.setOnClickListener {
+            val Intent = Intent(this,AbbCanteen::class.java)
+            startActivity(Intent)
+        }
+
+        val MainAbutton =findViewById<Button>(R.id.landmark)
+        MainAbutton.setOnClickListener {
+            val Intent = Intent(this,AbbEntrance::class.java)
+            startActivity(Intent)
+        }
+
         val MainAcbutton =findViewById<Button>(R.id.button1)
         MainAcbutton.setOnClickListener {
             val Intent = Intent(this,Selected6tob2d::class.java)

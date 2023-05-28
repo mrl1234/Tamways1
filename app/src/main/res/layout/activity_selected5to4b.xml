@@ -41,15 +41,9 @@
 
     <com.jsibbold.zoomage.ZoomageView
         android:layout_width="match_parent"
-        android:layout_height="399dp"
+        android:layout_height="387dp"
         android:layout_gravity="center"
         android:src="@drawable/nbgateto4b" />
-
-    <Button
-        android:id="@+id/landmark"
-        android:layout_width="123dp"
-        android:layout_height="wrap_content"
-        android:text="Landmark 1" />
 
     <LinearLayout
         android:layout_width="match_parent"

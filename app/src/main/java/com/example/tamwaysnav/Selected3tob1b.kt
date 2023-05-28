@@ -10,6 +10,12 @@ class Selected3tob1b : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_selected3tob1b)
 
+        val Mainbutton =findViewById<Button>(R.id.landmark)
+        Mainbutton.setOnClickListener {
+            val Intent = Intent(this,AbbEntrance::class.java)
+            startActivity(Intent)
+        }
+
         val MainAcbutton =findViewById<Button>(R.id.button1)
         MainAcbutton.setOnClickListener {
             val Intent = Intent(this,Selected3tob1a::class.java)

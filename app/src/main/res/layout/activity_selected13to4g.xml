@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Selected13to4g">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"></LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="   ABB 4th Floor to NB OGLH"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textColorHighlight="#E91E63"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="normal">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:text=" NB 5th Floor"
+        android:textAlignment="gravity"
+        android:textColor="@color/green"
+        android:textColorHighlight="#E91E63"
+        android:textSize="25sp"
+        android:textStyle="" />
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_gravity="center"
+        android:src="@drawable/abbshortcutdown" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="63dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="Previous"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="64dp"
+            android:layout_height="61dp"
+            android:orientation="horizontal" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="Next"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</LinearLayout>

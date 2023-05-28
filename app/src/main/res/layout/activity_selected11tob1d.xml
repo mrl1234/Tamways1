@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/button"
-            android:text="Back"
+            android:text="Previous"
             android:textSize="20sp"/>
 
         <LinearLayout
@@ -76,7 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@drawable/button"
-            android:text="Next"
+            android:text="Done"
             android:textSize="20sp"/>
     </LinearLayout>
 </LinearLayout>

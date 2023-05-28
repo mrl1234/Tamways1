@@ -13,6 +13,717 @@
         android:theme="@style/Theme.TamwaysNav"
         tools:targetApi="31">
         <activity
+            android:name=".Selected15tob5b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15ob5b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob5a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob4c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob4b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob4a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob3d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13tob3d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob3c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob3b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob3a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob2e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob2d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob2c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob2b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob2a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob1l"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob1k"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob1j"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob1i"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob1h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob1g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob1f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob1e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob1d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob1c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob1b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15tob1a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected4to1f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected4to1e"
+            android:exported="false" />
+        <activity
+            android:name=".NbEntrance"
+            android:exported="false" />
+        <activity
+            android:name=".Pav"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to7e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to7d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to7c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to7b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to7a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to6d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to6c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to6b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to6a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to5c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to5b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to5a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to4l"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to4k"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to4j"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to4i"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to4h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to4g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to4f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to4e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to4d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to4c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to4b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to4a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to3e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to3d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to3c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to3b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to3a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2x"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2w"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2v"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2u"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2t"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2s"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2r"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2q"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2p"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2o"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2n"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2m"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2l"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2k"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2j"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2i"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to2a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1u"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1t"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1s"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1r"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1q"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1p"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1o"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1n"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1m"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1l"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1k"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1j"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1i"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected15to1a"
+            android:exported="false" />
+        <activity
+            android:name=".NbCanteen"
+            android:exported="false" />
+        <activity
+            android:name=".AbbCanteen"
+            android:exported="false" />
+        <activity
+            android:name=".AbbEntrance"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to7d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to7c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to7b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to7a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to6c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to6b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to6a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to5b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to5a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to4i"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to4h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to4g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to4f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to4e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to4d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to4c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to4b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to4a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to3d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to3c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to3b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to3a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2t"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2s"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2r"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2q"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2p"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2o"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2n"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2m"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2l"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2k"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2j"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2i"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to2a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1r"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1q"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1p"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1o"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1n"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1m"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1l"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1k"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1j"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1i"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected14to1a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to7e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to7d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to7c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to7b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to7a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2x"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2w"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2v"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2u"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2t"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2s"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to6d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to6c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to6b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to6a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to5c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to5b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to5a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to4l"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to4k"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to4j"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to4i"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to4h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to4g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to4f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to4e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to4d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to4c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to4b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to4a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to3e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to3d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to3c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to3b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to3a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2r"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2q"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2p"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2o"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2n"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2m"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2l"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2k"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2j"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2i"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to2a"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to1o"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to1n"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to1m"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to1l"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to1k"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to1j"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to1i"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to1h"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to1g"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to1f"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to1e"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to1d"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to1c"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to1b"
+            android:exported="false" />
+        <activity
+            android:name=".Selected13to1a"
+            android:exported="false" />
+        <activity
             android:name=".Selected12to7f"
             android:exported="false" />
         <activity
@@ -110,9 +821,6 @@
             android:exported="false" />
         <activity
             android:name=".Selected12to3d"
-            android:exported="false" />
-        <activity
-            android:name=".Selected12o3d"
             android:exported="false" />
         <activity
             android:name=".Selected12to3c"
@@ -316,7 +1024,7 @@
             android:name=".Selected7to7c"
             android:exported="false" />
         <activity
-            android:name=".Pavillion"
+            android:name=".Atrium"
             android:exported="false" />
         <activity
             android:name=".Selected11to4l"
@@ -857,9 +1565,6 @@
             android:exported="false" />
         <activity
             android:name=".Selected11tob4b"
-            android:exported="false" />
-        <activity
-            android:name=".Selected11tob3c"
             android:exported="false" />
         <activity
             android:name=".Selected11tob4a"
@@ -3079,13 +3784,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Selected7to6c"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".Selected8"
             android:exported="false">
             <meta-data
@@ -3835,13 +4533,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Selected5to5d"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".Selected5to6b"
             android:exported="false">
             <meta-data
@@ -4087,13 +4778,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Selected4tob5f"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".Selected4tob5e"
             android:exported="false">
             <meta-data
@@ -4291,13 +4975,6 @@
         </activity>
         <activity
             android:name=".Selected4to1b"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".Selected1to2b"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -5228,13 +5905,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Selected1to1b"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".Selected2to1a"
             android:exported="false">
             <meta-data
@@ -5369,13 +6039,6 @@
         </activity>
         <activity
             android:name=".Selected2tob5d"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".Selected2b5d"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

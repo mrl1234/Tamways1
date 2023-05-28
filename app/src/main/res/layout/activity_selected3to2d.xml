@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="155dp"
         android:fontFamily="@font/abril_fatface"
-        android:text="  NB 1st Floor to NB Registra"
+        android:text="  NB 1st Floor to NB Registrar"
         android:textAlignment="gravity"
         android:textColor="@color/black"
         android:textColorHighlight="#E91E63"
@@ -49,6 +49,7 @@
         android:id="@+id/landmark"
         android:layout_width="123dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/landmark0"
         android:text="Landmark 1" />
 
     <LinearLayout

@@ -80,17 +80,45 @@ class Selected15 : AppCompatActivity(), UsersAdapter.ClickListener {
 
         when(userModel.username){
             "ABB Canteen"->
-                startActivity(Intent(this@Selected15, Selected14tob1f::class.java))
+                startActivity(Intent(this@Selected15, Selected15tob1g::class.java))
             "ABB 1st Floor"->
-                startActivity(Intent(this@Selected15, Selected14tob1a::class.java))
+                startActivity(Intent(this@Selected15, Selected15tob1a::class.java))
             "ABB 2nd Floor (Room 201 - 208)"->
-                startActivity(Intent(this@Selected15, Selected14tob2a::class.java))
+                startActivity(Intent(this@Selected15, Selected15tob2a::class.java))
             "ABB 3rd Floor (Room 301 - 307)"->
-                startActivity(Intent(this@Selected15, Selected14tob3a::class.java))
+                startActivity(Intent(this@Selected15, Selected15tob3a::class.java))
             "ABB 4th Floor (Room 401 - 407)"->
-                startActivity(Intent(this@Selected15, Selected14tob4a::class.java))
+                startActivity(Intent(this@Selected15, Selected15tob4a::class.java))
             "ABB 5th Floor (Room 501 - 507)"->
-                startActivity(Intent(this@Selected15, Selected14tob6a::class.java))
+                startActivity(Intent(this@Selected15, Selected15tob5a::class.java))
+            "NB 1st Floor (Room 101 - 103)"->
+                startActivity(Intent(this@Selected15, Selected15to1a::class.java))
+            "NB 2nd Floor (Room 201 - 207)"->
+                startActivity(Intent(this@Selected15, Selected15to2a::class.java))
+            "NB 3rd Floor (Room 301 - 309)"->
+                startActivity(Intent(this@Selected15, Selected15to3a::class.java))
+            "NB 4th Floor (Room 401 - 409)"->
+                startActivity(Intent(this@Selected15, Selected15to4a::class.java))
+            "NB 5th Floor (Room 501 - 509)"->
+                startActivity(Intent(this@Selected15, Selected15to5a::class.java))
+            "NB 6th Floor (Room 601 - 610)"->
+                startActivity(Intent(this@Selected15, Selected15to6a::class.java))
+            "NB 7th Floor (Room 701 - 709)"->
+                startActivity(Intent(this@Selected15, Selected15to7a::class.java))
+            "NB Finance"->
+                startActivity(Intent(this@Selected15, Selected15to2g::class.java))
+            "NB Registrar"->
+                startActivity(Intent(this@Selected15, Selected15to2m::class.java))
+            "NB SHS Faculty Room"->
+                startActivity(Intent(this@Selected15, Selected15to2s::class.java))
+            "NB Canteen"->
+                startActivity(Intent(this@Selected15, Selected15to1h::class.java))
+            "NB Gate"->
+                startActivity(Intent(this@Selected15, Selected15to1o::class.java))
+            "NB OGLH"->
+                startActivity(Intent(this@Selected15, Selected15to4e::class.java))
+            "NB Bio Chemistry Laboratory"->
+                startActivity(Intent(this@Selected15, Selected15to4i::class.java))
 
 
 

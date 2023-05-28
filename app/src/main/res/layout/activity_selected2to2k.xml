@@ -41,13 +41,14 @@
 
     <com.jsibbold.zoomage.ZoomageView
         android:layout_width="match_parent"
-        android:layout_height="366dp"
+        android:layout_height="307dp"
         android:layout_gravity="center"
         android:src="@drawable/abbgtto2b" />
 
     <Button
         android:id="@+id/landmark"
         android:layout_width="123dp"
+        android:background="@drawable/landmark0"
         android:layout_height="wrap_content"
         android:text="Landmark 1" />
 

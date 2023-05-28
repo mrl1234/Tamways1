@@ -1,19 +1,16 @@
 package com.example.tamwaysnav
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Filterable
 import android.widget.Filter
+import android.widget.Filterable
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class UsersAdapter2
-    (var clickListener: ClickListener)
+    class UsersAdapter2
+        (var clickListener: ClickListener)
     : RecyclerView.Adapter<UsersAdapter2.ViewHolder>(), Filterable {
 
     private var userModelList: List<UserModel> = arrayListOf();
@@ -34,7 +31,7 @@ class UsersAdapter2
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
-        var userModel = userModelList.get(position);
+        var userModel = userModelList[position];
         var username = userModel.username;
         var prefix = username.substring(0, 1)
 

@@ -45,17 +45,37 @@
         android:layout_gravity="center"
         android:src="@drawable/nbgate2" />
 
-    <Button
-        android:id="@+id/landmark"
-        android:layout_width="123dp"
-        android:layout_height="wrap_content"
-        android:text="Landmark 1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/landmark"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/landmark0"
+            android:text="Landmark 1" />
+
+        <LinearLayout
+            android:layout_width="21dp"
+            android:layout_height="61dp"
+            android:orientation="horizontal" />
+
+        <Button
+            android:id="@+id/landmark1"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/landmark0"
+            android:text="Landmark 2" />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="10dp"
         android:gravity="center"
-        android:orientation="vertical" />
+        android:orientation="horizontal" />
 
     <LinearLayout
         android:layout_width="400dp"
@@ -85,4 +105,4 @@
             android:text="Done"
             android:textSize="20sp" />
     </LinearLayout>
-</LinearLayout>
+    </LinearLayout>

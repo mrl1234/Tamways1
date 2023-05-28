@@ -45,29 +45,31 @@
         android:layout_gravity="center"
         android:src="@drawable/abb1tonb1" />
 
+
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/landmark1"
-            android:layout_width="50dp"
+            android:id="@+id/landmark"
+            android:layout_width="123dp"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="L1" />
+            android:background="@drawable/landmark0"
+            android:text="Landmark 1" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="21dp"
             android:layout_height="61dp"
             android:orientation="horizontal" />
 
         <Button
-            android:id="@+id/landmark"
-            android:layout_width="50dp"
+            android:id="@+id/landmark1"
+            android:layout_width="123dp"
             android:layout_height="wrap_content"
-            android:text="L2"
-            android:textSize="20sp" />
+            android:background="@drawable/landmark0"
+            android:text="Landmark 2" />
 
     </LinearLayout>
 

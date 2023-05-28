@@ -42,7 +42,7 @@
 
     <com.jsibbold.zoomage.ZoomageView
         android:layout_width="match_parent"
-        android:layout_height="333dp"
+        android:layout_height="314dp"
         android:layout_gravity="center"
         android:src="@drawable/pavto2" />
 
@@ -50,6 +50,7 @@
         android:id="@+id/landmark"
         android:layout_width="123dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/landmark0"
         android:text="Landmark 1" />
 
     <LinearLayout

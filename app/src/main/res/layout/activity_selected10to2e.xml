@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="155dp"
-        android:fontFamily="@font/abril_fatface"
+        android:fontFamily="sans-serif"
         android:text="   ABB 1st Floor to NB Registrar"
         android:textAlignment="gravity"
         android:textColor="@color/black"
@@ -31,7 +31,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:fontFamily="@font/abril_fatface"
+        android:fontFamily="sans-serif"
         android:gravity="center"
         android:text=" NB 1st Floor"
         android:textAlignment="gravity"

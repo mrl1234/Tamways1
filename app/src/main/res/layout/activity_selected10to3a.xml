@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="155dp"
-        android:fontFamily="@font/abril_fatface"
+        android:fontFamily="sans-serif"
         android:text="   ABB 1st Floor to NB 3rd Floor"
         android:textAlignment="gravity"
         android:textColor="@color/black"
@@ -31,7 +31,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:fontFamily="@font/abril_fatface"
+        android:fontFamily="sans-serif"
         android:gravity="center"
         android:text=" ABB 1st Floor"
         android:textAlignment="gravity"
@@ -45,6 +45,13 @@
         android:layout_height="333dp"
         android:layout_gravity="center"
         android:src="@drawable/firstfloortonb1" />
+
+    <Button
+        android:id="@+id/landmark"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/landmark0"
+        android:text="Landmark 1" />
 
     <LinearLayout
         android:layout_width="match_parent"
